@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     "taxi",
 ]
 
+# SESSION_COOKIE_SECURE = False  # Якщо ви працюєте локально, інакше True
+# CSRF_COOKIE_SECURE = False  # Якщо ви працюєте локально, інакше True
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
